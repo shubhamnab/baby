@@ -19,10 +19,8 @@
         <author href="http://www.webflax.in/" email="shubhamjaiswal1860@gmail.com">
         Shubham Jaiswal
         </author>
-        <feature name="http://api.phonegap.com/1.0/file"/>
-        <feature name="http://api.phonegap.com/1.0/media"/>
-        <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0" />
-		<gap:plugin name="org.apache.cordova.splashscreen" />
+        <gap:plugin name="org.apache.cordova.media" />
+       
 		
 		<icon src="favicon.png" />
     <icon src="favicon.png"   gap:platform="android"    gap:density="ldpi" />
