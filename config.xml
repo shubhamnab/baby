@@ -19,7 +19,15 @@
         <author href="http://www.webflax.in/" email="shubhamjaiswal1860@gmail.com">
         Shubham Jaiswal
         </author>
-        <gap:plugin name="org.apache.cordova.media" />
+        <feature name="Media">
+    <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+        </feature>
+
+
+
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
        
 		
 		<icon src="favicon.png" />
