@@ -19,13 +19,16 @@
         <author href="http://www.webflax.in/" email="shubhamjaiswal1860@gmail.com">
         Shubham Jaiswal
         </author>
-        <feature name="Media">
-    <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
-        </feature>
-
+ <preference name="permissions"                value="none"/>
+ <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+ <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+ <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+   
+   
+   <gap:plugin name="org.apache.cordova.media-capture" />
        
 		
-		<icon src="favicon.png" />
+    <icon src="favicon.png" />
     <icon src="favicon.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="favicon.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="favicon.png"   gap:platform="android"    gap:density="hdpi" />
