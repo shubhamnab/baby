@@ -25,7 +25,7 @@
  <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
    
    
-   <gap:plugin name="org.apache.cordova.media-capture" />
+   <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0" />
        
 		
     <icon src="favicon.png" />
